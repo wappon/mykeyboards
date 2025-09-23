@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * ├───┼───┼───┼───┤
      * │ 0 │ . │Ent│ + │
      * ├───┼───┼───┼───┤
-     * │ = │ , │( )│BS │  ← 例として下段にユーティリティ
+     * │ = │ , │( )│BS │  
      * └───┴───┴───┴───┘
      */
     [0] = LAYOUT(
@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_P4,   KC_P5,   KC_P6,   KC_PAST,           // row1
         KC_P1,   KC_P2,   KC_P3,   KC_PMNS,           // row2
         KC_P0,   KC_PDOT, KC_PENT, KC_PPLS,           // row3
-        KC_PEQL, KC_PCMM, KC_LPRN, KC_BSPC            // row4（好きに変更OK）
+        KC_PEQL, KC_PCMM, KC_LPRN, KC_BSPC            // row4
                  
     )
 };
